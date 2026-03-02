@@ -1,0 +1,31 @@
+genfscon sysfs /devices/platform/soc/4a80000.i2c                                u:object_r:sysfs_msm_subsys:s0
+genfscon sysfs /devices/platform/soc/4a88000.i2c                                u:object_r:sysfs_msm_subsys:s0
+genfscon sysfs /devices/platform/soc/4c80000.i2c                                u:object_r:sysfs_msm_subsys:s0
+genfscon sysfs /devices/platform/soc/4c84000.i2c                                u:object_r:sysfs_msm_subsys:s0
+genfscon sysfs /devices/platform/soc/4c88000.i2c                                u:object_r:sysfs_msm_subsys:s0
+genfscon sysfs /devices/platform/soc/4c90000.i2c                                u:object_r:sysfs_msm_subsys:s0
+
+genfscon sysfs /devices/platform/soc/soc:qcom,ipa_fws                           u:object_r:sysfs_msm_subsys:s0
+genfscon sysfs /devices/platform/soc/soc:qcom,ipa_uc                            u:object_r:sysfs_msm_subsys:s0
+genfscon sysfs /devices/platform/soc/a400000.qcom,lpass                         u:object_r:sysfs_msm_subsys:s0
+genfscon sysfs /devices/platform/soc/b000000.qcom,turing                        u:object_r:sysfs_msm_subsys:s0
+genfscon sysfs /devices/platform/soc/5ab0000.qcom,venus                         u:object_r:sysfs_msm_subsys:s0
+genfscon sysfs /devices/platform/soc/b0000000.qcom,cnss-qca6490                 u:object_r:sysfs_msm_subsys:s0
+
+genfscon sysfs /devices/platform/soc/5c1b000.qcom,cci                           u:object_r:sysfs_camera:s0
+genfscon sysfs /devices/platform/soc/5c1c000.qcom,cci                           u:object_r:sysfs_camera:s0
+
+# Display nodes
+genfscon sysfs /devices/platform/soc/ae00000.qcom,mdss_mdp/backlight/panel0-backlight                                                   u:object_r:sysfs_leds:s0
+
+# LED device nodes
+genfscon sysfs /devices/platform/soc/c42d000.qcom,spmi/spmi-0/0-09/c42d000.qcom,spmi:qcom,pm7250b@3:qcom,vibrator@5300/leds/vibrator    u:object_r:sysfs_leds:s0
+
+# Power supply device nodes
+genfscon sysfs /devices/platform/soc/soc:qcom,pmic_glink/soc:qcom,pmic_glink:qcom,battery_charger/power_supply/battery                  u:object_r:sysfs_batteryinfo:s0
+genfscon sysfs /devices/platform/soc/soc:qcom,pmic_glink/soc:qcom,pmic_glink:qcom,battery_charger/power_supply/usb                      u:object_r:sysfs_batteryinfo:s0
+
+# PMIC devices wakeup nodes
+genfscon sysfs /devices/platform/soc/soc:qcom,pmic_glink/soc:qcom,pmic_glink:qcom,battery_charger/power_supply/battery/wakeup           u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/soc:qcom,pmic_glink/soc:qcom,pmic_glink:qcom,battery_charger/power_supply/usb/wakeup               u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/soc:qcom,pmic_glink/soc:qcom,pmic_glink:qcom,battery_charger/wakeup/wakeup                         u:object_r:sysfs_wakeup:s0
