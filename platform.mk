@@ -129,6 +129,7 @@ AB_OTA_PARTITIONS += \
     boot \
     dtbo \
     init_boot \
+    pvmfw \
     product \
     recovery \
     system \
