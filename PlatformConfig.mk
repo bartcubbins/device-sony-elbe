@@ -103,7 +103,4 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 # Build vendor_boot with `--dtb $(PRODUCT_OUT)/dtb.img` (generated from BOARD_PREBUILT_DTBIMAGE_DIR in KernelConfig.mk)
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 
-# DTBO partition definitions
-TARGET_NEEDS_DTBOIMAGE ?= true
-
 include device/sony/common/CommonConfig.mk
