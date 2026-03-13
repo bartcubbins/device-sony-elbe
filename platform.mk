@@ -104,8 +104,8 @@ TARGET_USES_SDE := true
 # A/B support
 AB_OTA_UPDATER := true
 
-# Platform has been launched on Android 14 (API level 34)
-PRODUCT_SHIPPING_API_LEVEL := 34
+# Platform has been launched on Android 15 (API level 35)
+PRODUCT_SHIPPING_API_LEVEL := 35
 
 # A/B OTA dexopt package
 PRODUCT_PACKAGES += \
