@@ -88,6 +88,7 @@ AUDIO_FEATURE_ENABLED_PAL_HIDL := true
 BOARD_USES_ALSA_AUDIO := true
 TARGET_USES_AUDIOREACH := true
 TARGET_USES_QCOM_MM_AUDIO := true
+AUDIO_FEATURE_ENABLED_DYNAMIC_LOG := true
 
 # Display
 TARGET_HAS_HDR_DISPLAY := true
@@ -172,10 +173,6 @@ PRODUCT_PACKAGES += \
     init.elbe \
     init.elbe.pwr \
     ueventd
-
-# Audio init
-PRODUCT_PACKAGES += \
-    audiopd.rc
 
 # Audio
 PRODUCT_PACKAGES += \
