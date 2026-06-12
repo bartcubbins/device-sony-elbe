@@ -13,4 +13,4 @@ Android device configuration for the elbe platform (**SM6475**).
 
 ### Build instructions
 
-https://developer.sony.com/develop/open-devices/guides/aosp-build-instructions/
+https://opendevices.sony.net/aosp-on-xperia-open-devices/guides/aosp-build-instructions/
